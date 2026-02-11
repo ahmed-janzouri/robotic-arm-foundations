@@ -12,7 +12,7 @@ I developed the **Chained-Project Algorithm (CPA)** to solve a common engineerin
 
 ### The CPA Architecture
 
-
+```mermaid
 graph LR
     A[P1: Math Core] -->|Library| B[P2: Kinematics]
     B -->|Physics Engine| C[P3: PID Control]
